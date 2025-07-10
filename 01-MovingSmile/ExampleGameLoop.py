@@ -42,7 +42,8 @@ while True:
     # Draw things on the screen
 
     # TODO 02: Try to draw a circle (any size, any color, anywhere)
-    # pygame.draw.circle(screen, color, pos, radius, width(optional)  )
+    for i in range(6):
+        pygame.draw.circle(screen, (0 + i * 51, 255 - i * 51, 0), (260 + i * 15, 272 - i * 8), i * 20, 2)
 
     # TODO 03: Try to draw a red circle in the middle of the screen with a radius 100
     # pygame.draw.circle(screen, color, pos, radius, width(optional)  )
