@@ -76,7 +76,7 @@ def main():
             if event.type == pygame.MOUSEBUTTONDOWN:
                 instructions = False
 
-                balls.append(make_ball(screen, event.pos[0], event.pos[1], 200))
+                balls.append(make_ball(screen, event.pos[0], event.pos[1], 3))
 
         clock.tick(60)
         screen.fill(pygame.Color('gray'))
